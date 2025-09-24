@@ -61,4 +61,4 @@ http://localhost:5000/api-docs
 ---
 
 ## 👨‍💻 Author  
-Developed by [Abdelrahman Mahmoud].  
+Developed by Abdelrahman Mahmoud.  
