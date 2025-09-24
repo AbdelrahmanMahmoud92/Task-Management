@@ -7,7 +7,7 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 3000;
 const swaggerUi = require("swagger-ui-express");
-app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(require("../src/ServerLayer/swagger")));
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(require("./ServerLayer/swagger")));
 app.use(express.json());
 app.use(routes);
 
